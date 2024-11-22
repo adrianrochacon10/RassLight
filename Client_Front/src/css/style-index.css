@@ -1,0 +1,313 @@
+/* Estilos general para la página index */
+* {}
+
+/* Estilos para el body */
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para todas las etiquetas a */
+a {
+  text-decoration: none;
+}
+
+/* Texto grande "Bienvenido" */
+.text-image {
+  user-select: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 10vmax;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+/* Texto pequeño descripción */
+.content-info {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-size: 1.2vmax;
+}
+
+/* Botón de la página */
+.button-image {
+  position: absolute;
+  width: 15%;
+  text-align: center;
+  margin-top: 5%;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #16c1c8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1vmax;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  user-select: none;
+  padding: 10px;
+  text-align: center;
+  background-image: url('../assets/images/fondo-header.png');
+  background-size: cover;
+  z-index: 1000;
+}
+
+.a-header-img {
+  background-color: #16c1c8;
+  text-align: center;
+}
+
+.img-header {
+  max-width: 7%;
+  background-color: yellow;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.header li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.a-header {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.a-header:hover {
+  color: #16c1c8;
+}
+
+.div-servicios {
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.div-servicios img {
+  height: 250px;
+}
+
+.img-servicios {
+  width: 30%;
+  display: inline-block;
+  margin-left: 2%;
+  /* Adjust the margin as needed */
+}
+
+.acerca-de-Nosotros {
+  display: flex;
+  margin: 30px;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-content h2 {
+  color: #000;
+}
+
+.text-content p {
+  color: #000;
+  font-size: 2.3vmin;
+  line-height: 1.5;
+}
+
+.text-content ul {
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+  color: #777;
+}
+
+.text-content li {
+  margin-bottom: 5px;
+
+}
+
+/* .img-sobrenosotros {
+ width: 10vmax;
+ height: 20vmax;
+} */
+
+.button-image2 {
+  padding: 100px;
+  width: 55%;
+  text-align: center;
+  background-color: #4be150;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1vmax;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 15%;
+}
+
+.img-incio-proto {
+  width: 100%;
+}
+
+.dark-container {
+  margin-top: 100px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.small-image {
+  max-width: 500px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-text {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: #a90000;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  border-color: #16c1c8;
+}
+
+.card img {
+  max-width: 100px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.two-columns {
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  max-width: 48%;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.a-footer {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.a-footer:hover {
+  color: #16c1c8;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #13c7a9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logo-pic {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Estilo index.jsx seccion del prototipo */
+.bg-imagen {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+   ),   url('../assets/images/Software.jpg');
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(.3) opacity(90%) blur(1px) brightness(.3);
+  height: 200px;
+  z-index: 1; */
+}
+
+/* Estilñ del contenido encima delbg */
+.proto-content {
+  z-index: 2;
+}
+
+/* Estilos del carrousel */
+
+/* darle color a la lista de prototipo */
+.proto-list {
+  list-style-type: circle;
+}
+
+.proto-list li:before {
+  background: green;
+}

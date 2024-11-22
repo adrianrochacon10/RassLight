@@ -1,0 +1,24 @@
+input[type="Usuarioinp"],
+input[type="password"] {
+    background-color: #c1e5f3;
+    color: white;
+    padding: 0.50rem;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+button[type="submit"] {
+    background-color: #26ADE4;
+    color: white;
+}
+
+button[type="button"] {
+    background-color: #26ADE4;
+    color: white;
+}
+
+.disabled-button {
+    background-color: #A0AEC0 !important; /* Color gris */
+    cursor: not-allowed; /* Cambiar el cursor cuando está deshabilitado */
+  }
+  
